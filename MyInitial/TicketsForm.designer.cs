@@ -38,6 +38,7 @@
             this.radBox = new System.Windows.Forms.RadioButton();
             this.grpSection = new System.Windows.Forms.GroupBox();
             this.cmdCalculate = new System.Windows.Forms.Button();
+            this.backstallRadio = new System.Windows.Forms.RadioButton();
             this.grpSection.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -115,9 +116,20 @@
             this.radBox.TabIndex = 8;
             this.radBox.Text = "Box Seats";
             this.radBox.UseVisualStyleBackColor = true;
+            //
+            // radBack
+            //
+            this.backstallRadio.AutoSize = true;
+            this.backstallRadio.Location = new System.Drawing.Point(26, 63);
+            this.backstallRadio.Name = "radBox";
+            this.backstallRadio.Size = new System.Drawing.Size(73, 17);
+            this.backstallRadio.TabIndex = 8;
+            this.backstallRadio.Text = "Box Seats";
+            this.backstallRadio.UseVisualStyleBackColor = true;
             // 
             // grpSection
             // 
+            this.grpSection.Controls.Add(this.backstallRadio);
             this.grpSection.Controls.Add(this.radBox);
             this.grpSection.Controls.Add(this.radGeneral);
             this.grpSection.Controls.Add(this.radBalcony);
@@ -137,6 +149,17 @@
             this.cmdCalculate.Text = "Calculate";
             this.cmdCalculate.UseVisualStyleBackColor = true;
             this.cmdCalculate.Click += new System.EventHandler(this.cmdCalculate_Click);
+            // 
+            // backstallRadio
+            // 
+            this.backstallRadio.AutoSize = true;
+            this.backstallRadio.Location = new System.Drawing.Point(26, 86);
+            this.backstallRadio.Name = "backstallRadio";
+            this.backstallRadio.Size = new System.Drawing.Size(73, 17);
+            this.backstallRadio.TabIndex = 9;
+            this.backstallRadio.TabStop = true;
+            this.backstallRadio.Text = "Back Stall\r\n";
+            this.backstallRadio.UseVisualStyleBackColor = true;
             // 
             // TicketsForm
             // 
@@ -172,6 +195,7 @@
         private System.Windows.Forms.RadioButton radBox;
         private System.Windows.Forms.GroupBox grpSection;
         private System.Windows.Forms.Button cmdCalculate;
+        private System.Windows.Forms.RadioButton backstallRadio;
     }
 }
 

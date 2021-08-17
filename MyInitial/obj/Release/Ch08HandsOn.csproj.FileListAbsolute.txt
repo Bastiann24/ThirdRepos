@@ -1,0 +1,22 @@
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\bin\Release\Ch08HandsOn.exe
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\bin\Release\Ch08HandsOn.pdb
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Release\Ch08HandsOn.AboutBox1.resources
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Release\Ch08HandsOn.JuiceBarForm.resources
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Release\Ch08HandsOn.Properties.Resources.resources
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Release\Ch08HandsOn.SplashForm.resources
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Release\Ch08HandsOn.SummaryForm.resources
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Release\Ch08HandsOn.csproj.GenerateResource.Cache
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Release\Ch08HandsOn.exe
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Release\Ch08HandsOn.pdb
+D:\Ch_8_Hands_On\bin\Release\Ch08HandsOn.exe
+D:\Ch_8_Hands_On\bin\Release\Ch08HandsOn.pdb
+D:\Ch_8_Hands_On\obj\Release\ResolveAssemblyReference.cache
+D:\Ch_8_Hands_On\obj\Release\Ch08HandsOn.AboutBox1.resources
+D:\Ch_8_Hands_On\obj\Release\Ch08HandsOn.JuiceBarForm.resources
+D:\Ch_8_Hands_On\obj\Release\Ch08HandsOn.Properties.Resources.resources
+D:\Ch_8_Hands_On\obj\Release\Ch08HandsOn.SplashForm.resources
+D:\Ch_8_Hands_On\obj\Release\Ch08HandsOn.SummaryForm.resources
+D:\Ch_8_Hands_On\obj\Release\Ch08HandsOn.csproj.GenerateResource.Cache
+D:\Ch_8_Hands_On\obj\Release\Ch08HandsOn.exe
+D:\Ch_8_Hands_On\obj\Release\Ch08HandsOn.pdb

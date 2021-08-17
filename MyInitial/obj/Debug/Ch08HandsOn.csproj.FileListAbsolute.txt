@@ -1,0 +1,44 @@
+C:\Users\Anita\Documents\C# 2008\Projects\ch08handson\Ch08HandsOn\obj\Debug\Ch08HandsOn.exe
+C:\Users\Anita\Documents\C# 2008\Projects\ch08handson\Ch08HandsOn\obj\Debug\Ch08HandsOn.pdb
+C:\Users\Anita\Documents\C# 2008\Projects\ch08handson\Ch08HandsOn\bin\Debug\Ch08HandsOn.exe
+C:\Users\Anita\Documents\C# 2008\Projects\ch08handson\Ch08HandsOn\bin\Debug\Ch08HandsOn.pdb
+C:\Users\Anita\Documents\C# 2008\Projects\ch08handson\Ch08HandsOn\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Anita\Documents\C# 2008\Projects\ch08handson\Ch08HandsOn\obj\Debug\Ch08HandsOn.AboutBox1.resources
+C:\Users\Anita\Documents\C# 2008\Projects\ch08handson\Ch08HandsOn\obj\Debug\Ch08HandsOn.JuiceBarForm.resources
+C:\Users\Anita\Documents\C# 2008\Projects\ch08handson\Ch08HandsOn\obj\Debug\Ch08HandsOn.Properties.Resources.resources
+C:\Users\Anita\Documents\C# 2008\Projects\ch08handson\Ch08HandsOn\obj\Debug\Ch08HandsOn.SplashForm.resources
+C:\Users\Anita\Documents\C# 2008\Projects\ch08handson\Ch08HandsOn\obj\Debug\Ch08HandsOn.SummaryForm.resources
+C:\Users\Anita\Documents\C# 2008\Projects\ch08handson\Ch08HandsOn\obj\Debug\Ch08HandsOn.csproj.GenerateResource.Cache
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 8\Ch08HandsOn\obj\Debug\Ch08HandsOn.exe
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 8\Ch08HandsOn\obj\Debug\Ch08HandsOn.pdb
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 8\Ch08HandsOn\bin\Debug\Ch08HandsOn.exe
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 8\Ch08HandsOn\bin\Debug\Ch08HandsOn.pdb
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 8\Ch08HandsOn\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 8\Ch08HandsOn\obj\Debug\Ch08HandsOn.AboutBox1.resources
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 8\Ch08HandsOn\obj\Debug\Ch08HandsOn.JuiceBarForm.resources
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 8\Ch08HandsOn\obj\Debug\Ch08HandsOn.Properties.Resources.resources
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 8\Ch08HandsOn\obj\Debug\Ch08HandsOn.SplashForm.resources
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 8\Ch08HandsOn\obj\Debug\Ch08HandsOn.SummaryForm.resources
+C:\Users\Public\Csharp2008\InChapter Programs\Chap 8\Ch08HandsOn\obj\Debug\Ch08HandsOn.csproj.GenerateResource.Cache
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Debug\Ch08HandsOn.exe
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Debug\Ch08HandsOn.pdb
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\bin\Debug\Ch08HandsOn.exe
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\bin\Debug\Ch08HandsOn.pdb
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Debug\Ch08HandsOn.AboutBox1.resources
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Debug\Ch08HandsOn.JuiceBarForm.resources
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Debug\Ch08HandsOn.Properties.Resources.resources
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Debug\Ch08HandsOn.SplashForm.resources
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Debug\Ch08HandsOn.SummaryForm.resources
+C:\Documents and Settings\Judy\My Documents\Csharp2008\InChapterPrograms\Chap 08\Ch08HandsOn\obj\Debug\Ch08HandsOn.csproj.GenerateResource.Cache
+D:\Ch_8_Hands_On\obj\Debug\Ch08HandsOn.exe
+D:\Ch_8_Hands_On\obj\Debug\Ch08HandsOn.pdb
+D:\Ch_8_Hands_On\bin\Debug\Ch08HandsOn.exe
+D:\Ch_8_Hands_On\bin\Debug\Ch08HandsOn.pdb
+D:\Ch_8_Hands_On\obj\Debug\ResolveAssemblyReference.cache
+D:\Ch_8_Hands_On\obj\Debug\Ch08HandsOn.AboutBox1.resources
+D:\Ch_8_Hands_On\obj\Debug\Ch08HandsOn.JuiceBarForm.resources
+D:\Ch_8_Hands_On\obj\Debug\Ch08HandsOn.Properties.Resources.resources
+D:\Ch_8_Hands_On\obj\Debug\Ch08HandsOn.SplashForm.resources
+D:\Ch_8_Hands_On\obj\Debug\Ch08HandsOn.SummaryForm.resources
+D:\Ch_8_Hands_On\obj\Debug\Ch08HandsOn.csproj.GenerateResource.Cache

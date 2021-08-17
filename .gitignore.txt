@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title>Site policy agreement</title>
+<link rel="shortcut icon" href="//learn.tafesa.edu.au/pluginfile.php/1/theme_snap/favicon/1628695332/favicon-32x32.png"/>
+<meta name="apple-itunes-app" content="app-id=1553337282, app-argument=https://learn.tafesa.edu.au/user/policy.php"/><link rel="manifest" href="https://learn.tafesa.edu.au/admin/tool/mobile/mobile.webmanifest.php" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"06560f3a30",applicationID:"85424751"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[u.now()].concat(f(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(8),f=t(9),c=t("ee").get("tracer"),u=t("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){s[e]=i(p+e,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){function r(){return f.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,f=t(10);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],4:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],5:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof m&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=p.now()?n.fid=p.now()-e:e>p.offset&&e<=Date.now()?(e-=p.offset,n.fid=p.now()-e):e=p.now(),g=!0,d("timing",["fi",e,n])}}function f(t){"hidden"===t&&d("pageHide",[p.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,u,s,d=t("handle"),p=t("loader"),l=t(7),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,h=["click","keydown","mousedown","pointerdown","touchstart"];h.forEach(function(t){document.addEventListener(t,a,!1)})}l(f)}},{}],6:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],7:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],8:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],9:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],10:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var f=e(i),c=v(n),u=c.length,s=0;s<u;s++)c[s].apply(f,r);var p=d[w[n]];return p&&p.push([b,n,r,f]),f}}function o(t,e){y[t]=v(t).concat(e)}function m(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function v(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:e,buffer:h,abort:f,aborted:!1};return b}function o(t){return u(t,c,a)}function a(){return new r}function f(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",u=t("gos"),s=t(8),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!R++){var t=M.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();f("mark",["onload",n+M.offset],null,"api"),f("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===v.readyState&&o()}function o(){f("mark",["domContent",a()+M.offset],null,"api")}var a=t(3),f=t("handle"),c=t(8),u=t("ee"),s=t(6),d=t(4),p=t(2),l=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,g="addEventListener",h="attachEvent",y=m.XMLHttpRequest,w=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},O=y&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(5),v[g]?(v[g]("DOMContentLoaded",o,!1),m[g]("load",r,!1)):(v[h]("onreadystatechange",i),m[h]("onload",r)),f("mark",["firstbyte",a.getLastTimestamp()],null,"api");var R=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,c],s],t)}f(n+"start",[o,a,c],s,u);try{return p=e.apply(a,o)}catch(m){throw f(n+"err",[o,a,m],s,u),m}finally{f(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var f,c,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)c=e[u],f=t[c],a(f)||(t[c]=n(f,s?c+r:r,i,c,o))}function f(n,r,o,a){if(!m||e){var f=m;m=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}m=f}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function f(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function c(t,e,n){var r=t[e];t[e]=f(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(9),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;e.exports=r,e.exports.wrapFunction=f,e.exports.wrapInPlace=c,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<meta name="keywords" content="moodle, Site policy agreement" />
+<link rel="stylesheet" type="text/css" href="https://learn.tafesa.edu.au/theme/yui_combo.php?3.17.2/cssgrids/cssgrids-min.css" /><link rel="stylesheet" type="text/css" href="https://learn.tafesa.edu.au/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://learn.tafesa.edu.au/theme/styles.php/snap/1628695332_1628695151/all" />
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/learn.tafesa.edu.au","sesskey":"1D8gZ6bjWh","sessiontimeout":"14400","themerev":"1628695332","slasharguments":1,"theme":"snap","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1628695332","admin":"admin","svgicons":true,"usertimezone":"Australia\/Adelaide","contextid":1,"langrev":1628695332,"templaterev":"1628695332"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/learn.tafesa.edu.au\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/learn.tafesa.edu.au\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/learn.tafesa.edu.au\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/learn.tafesa.edu.au\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/learn.tafesa.edu.au\/theme\/yui_combo.php?m\/1628695332\/","combine":true,"comboBase":"https:\/\/learn.tafesa.edu.au\/theme\/yui_combo.php?","ext":false,"root":"m\/1628695332\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-core_outcome-models":{"requires":["base","model","model-list","moodle-core_outcome-simpleio","json-stringify"]},"moodle-core_outcome-mapoutcome":{"requires":["widget","handlebars","json-parse","json-stringify","moodle-core_outcome-models","moodle-core_outcome-outcomepanel","moodle-core-notification-exception"]},"moodle-core_outcome-dynamicpanel":{"requires":["base","moodle-core_outcome-simpleio","classnamemanager","moodle-core-notification-dialogue","moodle-core_outcome-scrollpanel"]},"moodle-core_outcome-editoutcome":{"requires":["widget","event-valuechange","handlebars","json-parse","json-stringify","moodle-core_outcome-models","moodle-core-notification-dialogue","moodle-core-notification-exception"]},"moodle-core_outcome-outcomepanel":{"requires":["base","handlebars","moodle-core_outcome-models","moodle-core_outcome-scrollpanel","moodle-core_outcome-ariacontrol","moodle-core_outcome-ariacontrolled","moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core_outcome-simpleio"]},"moodle-core_outcome-scrollpanel":{"requires":["plugin","widget","panel"]},"moodle-core_outcome-simpleio":{"requires":["base","io-base","json-parse","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core_outcome-mapoutcomeset":{"requires":["widget","model","model-list","handlebars","json-parse","json-stringify","moodle-core_outcome-models","moodle-core-notification-dialogue","moodle-core-notification-exception","moodle-core-notification-alert","moodle-core_outcome-simpleio"]},"moodle-core_outcome-ariacontrol":{"requires":["plugin","widget","escape"]},"moodle-core_outcome-ariacontrolled":{"requires":["plugin","widget"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_releasecode-form":{"requires":["base","node","event","event-valuechange","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_checklist-linkselect":{"requires":["node","event-valuechange"]},"moodle-mod_customcert-rearrange":{"requires":["dd-delegate","dd-drag"]},"moodle-mod_hsuforum-io":{"requires":["base","io-base","io-form","io-upload-iframe","json-parse"]},"moodle-mod_hsuforum-livelog":{"requires":["widget"]},"moodle-mod_hsuforum-article":{"requires":["base","node","event","router","core_rating","querystring","moodle-mod_hsuforum-io","moodle-mod_hsuforum-livelog","moodle-core-formchangechecker"]},"moodle-mod_iassign-history":{"requires":["node","transition"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_scheduler-studentlist":{"requires":["base","node","event","io"]},"moodle-mod_scheduler-delselected":{"requires":["base","node","event"]},"moodle-mod_scheduler-saveseen":{"requires":["base","node","event"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_gapps-gmail":{"requires":["base","event","handlebars"]},"moodle-block_gapps-popup":{"requires":["base","event"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-format_grid-gridkeys":{"requires":["event-nav-keys"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-report_outcome-autocomplete":{"requires":["base","autocomplete","autocomplete-filters","autocomplete-highlighters"]},"moodle-report_outcome-resetoptions":{"requires":["base","moodle-core_outcome-simpleio"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bsgrid-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_chemistry-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_count-button":{"requires":["io","json-parse","moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_filedragdrop-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_fullscreen-button":{"requires":["event-resize","moodle-editor_atto-plugin"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_hr-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-beautify":{},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_htmlplus-beautify":{},"moodle-atto_htmlplus-codemirror":{"requires":["moodle-atto_htmlplus-codemirror-skin"]},"moodle-atto_htmlplus-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_htmlplus-beautify","moodle-atto_htmlplus-codemirror","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_imagedragdrop-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_teamsmeeting-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/learn.tafesa.edu.au\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/learn.tafesa.edu.au\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1628695332\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/learn.tafesa.edu.au\/lib\/javascript.php\/1628695332\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/learn.tafesa.edu.au\/lib\/javascript.php\/1628695332\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.8\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<link href="https://fonts.googleapis.com/css?family=Quicksand|Maven+Pro" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Maven+Pro');
+</style>
+
+<!-- Google Analytics code -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6871427-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- End Google Analytics code -->
+<script>
+var _prum = [['id', '573e5eaeabe53d40629f1cf2'],
+             ['mark', 'firstbyte', (new Date()).getTime()]];
+(function() {
+    var s = document.getElementsByTagName('script')[0]
+      , p = document.createElement('script');
+    p.async = 'async';
+    p.src = '//rum-static.pingdom.net/prum.min.js';
+    s.parentNode.insertBefore(p, s);
+})();
+</script><meta name="theme-color" content="#BE1428">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='//fonts.googleapis.com/css?family=Roboto:500,100,400,300' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body  id="page-user-policy" class="format-site  path-user chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam learn-tafesa-edu-au pagelayout-base course-1 context-1 device-type-default snap-resource-list theme-snap layout-base">
+
+<div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
+</div><script src="https://learn.tafesa.edu.au/lib/javascript.php/1628695332/lib/babel-polyfill/polyfill.min.js"></script>
+<script src="https://learn.tafesa.edu.au/lib/javascript.php/1628695332/lib/polyfills/polyfill.js"></script>
+<script src="https://learn.tafesa.edu.au/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script src="https://learn.tafesa.edu.au/theme/jquery.php/core/jquery-3.5.1.min.js"></script>
+<script src="https://learn.tafesa.edu.au/lib/javascript.php/1628695332/lib/javascript-static.js"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<div class="visible-desktop site-links">
+    <a href="https://www.tafesa.edu.au" title="TAFE SA Website" target="_blank">Website</a> &nbsp;&nbsp;
+    <a href="https://www.tafesa.edu.au/mytafe-sa" title="MyTAFE SA" target="_blank">myTAFE SA</a> &nbsp;&nbsp;
+    <a href="https://sts.tafesa.edu.au/adfs/ls/?wa=wsignin1.0&amp;wtrealm=https://portal.tafesa.edu.au&amp;wctx=bk=1393551405&amp;LoginOptions=3" title="Access other TAFE SA online services" target="_blank">Portal</a>&nbsp;&nbsp;&nbsp;
+    <a href="/mod/page/view.php?id=411" title="Help with TAFE SA Learn">Help</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tafesa_course_search" id="search_shortcut" title="Search for courses"><img src="/pluginfile.php/1/tool_themeassets/assets/0/search_white.svg" alt="Search for courses" height="14px" width="14px" /></a>
+</div>
+<div id="tafesa-header" class="logo">
+    <a class="" href="https://www.tafesa.edu.au" title="Visit the TAFE SA Website" target="_blank">
+        <img src="/pluginfile.php/1/tool_themeassets/assets/0/TAFE-SA-logo.png" alt="TAFE SA" class="img-tafesa-logo img-responsive" />
+    </a>
+</div>
+<div id="tafesa-help" class="tafesa-help">
+    <a class="" href="/mod/page/view.php?id=411" title="Help with TAFE SA Learn">
+        <img src="/pluginfile.php/1/tool_themeassets/assets/0/help.png" alt="Help!" class="img-tafesa-help img-responsive" />
+    </a>
+</div>
+<div id="tafesa-mycourses" class="tafesa-mycourses">
+    <span style="span-tafesa-mycourses">My Courses</span>
+</div>
+<header id='mr-nav' class='clearfix moodle-has-zindex'>
+<div id="snap-header">
+<a aria-label="home" id="snap-home" title="TAFE SA Learn" class="logo" href="https://learn.tafesa.edu.au"><span class="sr-only">TAFE SA Learn</span></a>
+<div class="pull-right js-only row">
+    <a class="btn btn-primary snap-login-button" href="https://learn.tafesa.edu.au/login/index.php">Log in</a><span class="hidden-md-down"></span></div>
+</div>
+</header>
+
+<div id="snap-pm" class="snap-pm-login-form" tabindex="-1">
+    <div id="snap-pm-inner">
+
+        <header id="snap-pm-header" class="clearfix">
+            <div class="pull-right">
+                <a id="snap-pm-close" class="js-snap-pm-trigger snap-action-icon snap-icon-close" href="#">
+                        <small>Close</small>
+                </a>
+            </div>
+            <h1>Log in</h1>
+        </header>
+        <div class ="snap-pm-section">
+                <div class="snap-pm-content">
+                    <form action='https://learn.tafesa.edu.au/login/index.php'  method='post'>
+    <input type="hidden" name="logintoken" value="2fd8ZXaUmEr9IaeBov9RLXuKsVf7qRNX">
+    <div class="form-group">
+        <label class="form-control-label" for='username' >Username</label>
+        <input class="form-control" autocapitalize='off' type='text' name='username' id='username' required>
+    </div>
+    <div class="form-group">
+        <label class="form-control-label" for='password'>Password</label>
+        <input class="form-control" type='password' name='password' id='password' required>
+    </div>
+    <br>
+    <input type='submit' class="btn btn-primary btn-block" value='Log in'>
+</form>
+                </div>
+        </div>
+        <div id="snap-pm-login-help">
+            <a class="btn btn-primary" href="https://learn.tafesa.edu.au/login/index.php"><i class="fa fa-info-circle" aria-hidden="true"></i> Help</a>
+        </div>
+    </div>
+</div>
+<!-- Moodle js hooks -->
+<div id="page">
+<div id="page-content">
+
+<!--
+////////////////////////// MAIN  ///////////////////////////////
+-->
+<main id="moodle-page" class="clearfix">
+<div id="page-header" class="clearfix ">
+            <div class="breadcrumb-nav" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a class="" href="https://learn.tafesa.edu.au/">Home</a></li></ol></div>
+            <div id="page-mast">
+        <h1>TAFE SA Learn</h1>        </div>
+        </div>
+<section id="region-main">
+<span class="notifications" id="user-notifications"></span><div class='snap-page-heading-button' ></div><div role="main"><span id="maincontent"></span><h2>Site policy agreement</h2><div class="noticebox"><div class="resourcecontent resourcegeneral">
+  <iframe id="resourceobject" src="https://learn.tafesa.edu.au/pluginfile.php/762/mod_page/content/19/terms.html">
+    <a href="https://learn.tafesa.edu.au/pluginfile.php/762/mod_page/content/19/terms.html" onclick="this.target='_blank'">Link to site policy agreement</a>
+  </iframe>
+</div></div><div id="notice" class="box py-3 generalbox snap-continue-cancel"><h4>Confirm</h4><p>You must agree to this policy to continue using this site.  Do you agree?</p><div class="buttons"><div class="singlebutton">
+    <form method="post" action="policy.php" >
+            <input type="hidden" name="agree" value="1">
+            <input type="hidden" name="sesskey" value="1D8gZ6bjWh">
+        <button type="submit" class="btn btn-primary"
+            id="single_button6118d8133bb1d3"
+            title=""
+            
+            >Yes</button>
+    </form>
+</div><div class="singlebutton">
+    <form method="post" action="https://learn.tafesa.edu.au/login/logout.php" >
+            <input type="hidden" name="agree" value="0">
+            <input type="hidden" name="sesskey" value="1D8gZ6bjWh">
+        <button type="submit" class="btn btn-secondary"
+            id="single_button6118d8133bb1d4"
+            title=""
+            
+            >No</button>
+    </form>
+</div></div></div></div>
+</section>
+
+</main>
+
+</div>
+</div>
+
+<!-- close moodle js hooks -->
+
+<footer id="moodle-footer" role="contentinfo" class="clearfix">
+<div id="snap-site-footer"><div id="snap-footer-content"><div id="footer-course-search"><a name="tafesa_course_search"></a><a name="tafesa_course_search">
+    <form action="/course/search.php" id="coursesearch" method="get" _lpchecked="1">
+  			<fieldset class="coursesearchbox invisiblefieldset">
+        		<label for="coursesearchbox" class="sr-only">Search courses</label>
+        		<div class="input-group">
+            		<input id="coursesearchbox" name="search" type="text" size="0" value="" class="form-control" placeholder="Search courses">
+            		<span class="input-group-btn">
+                		<button class="btn btn-secondary" type="submit">Go</button>
+            		</span>
+        		</div>
+    		</fieldset>
+		</form>
+</a></div><a name="tafesa_course_search">
+</a><p id="tafesa-footer-links">
+  <a href="/mod/page/view.php?id=411" target="_blank" title="Help &amp; Support">Help</a>&nbsp;|&nbsp;
+  <a href="https://www.tafesa.edu.au/copyright" target="_blank" title="Copyright statement">Copyright</a>&nbsp;| 
+  <a href="https://www.tafesa.edu.au/privacy" target="_blank" title="Privacy statement">Privacy</a> | 
+  <a href="https://www.tafesa.edu.au/disclaimer" title="Disclaimer statement" target="_blank">Disclaimer</a>&nbsp;| 
+  <a href="/mod/page/view.php?id=470" target="_blank" title="Terms of Use">Terms&nbsp;of&nbsp;Use</a>&nbsp;| 
+  <a href="http://cricos.deewr.gov.au/Institution/InstitutionDetails.aspx?ProviderID=92" target="_blank" title="CRICOS Registration Information">CRICOS&nbsp;No:&nbsp;00092B</a>&nbsp;| 
+  <a href="https://training.gov.au/Organisation/Details/41026" target="_blank" title="RTO Registration Information">RTO&nbsp;Code:&nbsp;41026</a>
+</p>
+<div id="footer-brand">
+    <img src="/pluginfile.php/1/tool_themeassets/assets/0/gosa.png" alt="Government of South Australia" width="155" height="43" class="img-responsive atto_image_button_text-bottom" style="">&nbsp;&nbsp;&nbsp;
+</div>
+<div id="moodle-custom-menu"><br><ul class="list-unstyled list-large"><li><a title="<h5>Study areas</h5>" href="/course/index.php"><h5>Study areas</h5></a></li><li><a title="Agriculture &amp; Science" href="/course/index.php?categoryid=2">Agriculture &amp; Science</a></li><li><a title="Arts &amp; Design" href="/course/index.php?categoryid=3">Arts &amp; Design</a></li><li><a title="Building &amp; Furnishing" href="/course/index.php?categoryid=4">Building &amp; Furnishing</a></li><li><a title="Business &amp; Marketing" href="/course/index.php?categoryid=5">Business &amp; Marketing</a></li><li><a title="Community &amp; Health" href="/course/index.php?categoryid=6">Community &amp; Health</a></li><li><a title="Education &amp; Languages" href="/course/index.php?categoryid=7">Education &amp; Languages</a></li><li><a title="Engineering &amp; Transport" href="/course/index.php?categoryid=9">Engineering &amp; Transport</a></li><li><a title="Food &amp; Wine" href="/course/index.php?categoryid=10">Food &amp; Wine</a></li><li><a title="Government &amp; Justice" href="/course/index.php?categoryid=11">Government &amp; Justice</a></li><li><a title="Hair &amp; Beauty" href="/course/index.php?categoryid=12">Hair &amp; Beauty</a></li><li><a title="Hospitality &amp; Tourism" href="/course/index.php?categoryid=13">Hospitality &amp; Tourism</a></li><li><a title="Information Technology" href="/course/index.php?categoryid=14">Information Technology</a></li><li><a title="Recreation &amp; Fitness" href="/course/index.php?categoryid=15">Recreation &amp; Fitness</a></li><li><a title="Staff Training" href="/course/index.php?categoryid=16">Staff Training</a></li><li><a title="Resources" href="/course/index.php?categoryid=101">Resources</a></li><li><a title="Learn Moodle" href="/course/index.php?categoryid=987">Learn Moodle</a></li><li>&nbsp;</li><li><h5>Support</h5></li><li><a title="Student Orientation &amp;amp; Support" href="/course/view.php?id=8620">Student Orientation &amp; Support</a></li><li><a title="Support for Digital Education" href="https://in.tafesa.edu.au/elearning/learn_support_redirect.php">Educator Support</a></li><li>&nbsp;</li><li><h5>Information &amp; Services</h5></li><li><a title="Policies &amp; Responsibilities" href="https://www.tafesa.edu.au/apply-enrol/student-policies.aspx\" target="\&quot;_blank&quot;">Policies &amp; Responsibilities</a></li><li><a title="Student Services" href="https://www.tafesa.edu.au/services\" target="\&quot;_blank&quot;">Student Services</a></li><li>&nbsp;</li><li>&nbsp;</li></ul></div></div></div>
+
+<div class="row">
+    <div id="mrooms-footer" class="helplink col-sm-6">
+        <small>
+            Built with <a href="https://www.openlms.net/" target="_blank" rel="noopener">Open LMS</a>,
+    a <a href="https://moodle.com/" target="_blank" rel="noopener">Moodle</a>-based product.<br>
+    Copyright &#169; 2021 Open LMS, All Rights Reserved.        </small>
+    </div>
+    <div class="langmenu col-sm-6 text-right">
+            </div>
+</div>
+<div id="goto-top-link">
+        <a class="btn btn-light" role="button" href="javascript:void(0)">
+            <i class="icon fa fa-arrow-up fa-fw" title="Go to top" aria-label="Go to top"></i>
+        </a>
+    </div><div id="page-footer">
+<br/>
+<a href="https://www.openlms.net/open-lms-mobile-app/">Get the mobile app</a></div>
+</footer>
+
+<script type="text/javascript">
+if (document.getElementById("page-site-index") && document.getElementsByClassName("notloggedin")[0]) {
+        l = document.links;
+       for(var i=0; i<l.length; i++) {
+      if (l[i].href == 'https://learn.tafesa.edu.au/local/tafe_custom/manual_login.php'){
+        l[i].href = 'local/tafe_custom/manual_login.php?saml=off';
+                //console.log('done');
+      }
+          if (l[i].href == 'https://learn.tafesa.edu.au/login/index.php'){
+          l[i].href = 'login/index.php?saml=on';
+        
+      }
+    }
+}
+</script><script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://learn.tafesa.edu.au/lib/requirejs.php/1628695332/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://learn.tafesa.edu.au/lib/javascript.php/1628695332/lib/jquery/jquery-3.5.1.min',
+        jqueryui: 'https://learn.tafesa.edu.au/lib/javascript.php/1628695332/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://learn.tafesa.edu.au/lib/javascript.php/1628695332/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="https://learn.tafesa.edu.au/lib/javascript.php/1628695332/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+require(['core/prefetch']);
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp('en');
+});;
+require(['theme_boost/loader']);;
+M.util.js_pending('theme_snap/snap'); require(['theme_snap/snap'], function(amd) {amd.snapInit({"id":"1","shortname":"Learn","contextid":1,"categoryid":false,"ajaxurl":"\/course\/rest.php","unavailablesections":[],"unavailablemods":[],"enablecompletion":false,"format":"site","partialrender":false,"toctype":"list","loadPageInCourse":false}, false, "52428800", false, true, "1", false, false, {"primary":"#ff7f41 !default;","success":"#3d5c1f;","warning":"#b55600;","danger":"#990f3d;","info":"#02567e;"}, {"gradepercentage":2,"gradepercentagereal":21,"gradepercentageletter":23,"gradereal":1,"graderealpercentage":12,"graderealletter":13}); M.util.js_complete('theme_snap/snap');});;
+M.util.js_pending('theme_snap/accessibility'); require(['theme_snap/accessibility'], function(amd) {amd.snapAxInit(false, true, true); M.util.js_complete('theme_snap/accessibility');});;
+M.util.js_pending('theme_snap/login_render-lazy'); require(['theme_snap/login_render-lazy'], function(amd) {amd.loginRender("1", null); M.util.js_complete('theme_snap/login_render-lazy');});;
+M.util.js_pending('report_allylti/main'); require(['report_allylti/main'], function(amd) {amd.init(); M.util.js_complete('report_allylti/main');});;
+M.util.js_pending('local_mrooms/mobile-url-changer'); require(['local_mrooms/mobile-url-changer'], function(amd) {amd.init({"utm_source":"knfn5p3U3L8y1OfB6dhlp2cjm3PEivculearn.tafesa.edu.au","utm_campaign":"mobilelink_guest"}); M.util.js_complete('local_mrooms/mobile-url-changer');});;
+M.util.js_pending('filter_oembed/oembed'); require(['filter_oembed/oembed'], function(amd) {amd.init(); M.util.js_complete('filter_oembed/oembed');});;
+M.util.js_pending('theme_snap/wcloader'); require(['theme_snap/wcloader'], function(amd) {amd.init("{\"theme_snap\\\/snapce\":[\"https:\\\/\\\/learn.tafesa.edu.au\\\/pluginfile.php\\\/1\\\/theme_snap\\\/vendorjs\\\/snap-custom-elements\\\/snap-ce\"]}"); M.util.js_complete('theme_snap/wcloader');});;
+M.util.js_pending('local_ce/wcloader'); require(['local_ce/wcloader'], function(amd) {amd.init("[]"); M.util.js_complete('local_ce/wcloader');});;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(1, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","ok":"OK","cancel":"Cancel","unknownerror":"Unknown error","closebuttontitle":"Close","modhide":"Hide","modshow":"Show","hiddenoncoursepage":"Available but not shown on course page","showoncoursepage":"Show on course page","switchrolereturn":"Return to my normal role","confirm":"Confirm","areyousure":"Are you sure?","file":"File","url":"URL"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} links to this file","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"},"theme_snap":{"coursecontacts":"Course Contacts","debugerrors":"Debug Errors","problemsfound":"Problems Found","error:coverimageexceedsmaxbytes":"Cover image exceeds the site level maximum allowed file size ({$a})","error:coverimageresolutionlow":"For best quality, we recommend a larger image of at least 1024px width.","forumtopic":"Topic","forumauthor":"Author","forumpicturegroup":"Group","forumreplies":"Replies","forumlastpost":"Last Post","hiddencoursestoggle":"Hidden courses","loading":"Loading...","more":"More","moving":"Moving \"{$a}\"","movingcount":"Moving {$a} objects","movehere":"Move here","movefailed":"Move failed for \"{$a}\"","movingdropsectionhelp":"Place section \"{$a->moving}\" before section \"{$a->before}\"","movingstartedhelp":"Navigate to where you would like to place section \"{$a}\"","notpublished":"Not published to students","visibility":"Visibility"},"booktool_print":{"printbook":"Print book"},"completion":{"progresstotal":"Progress: {$a->complete} \/ {$a->total}"},"debug":{"debuginfo":"Debug info","line":"Line","stacktrace":"Stack trace"},"langconfig":{"labelsep":": "}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"});
+});
+Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random6118d8133bb1d2'); Y.on('domready', function() { M.util.init_maximised_embed(Y, "resourceobject");  M.util.js_complete('random6118d8133bb1d2'); });
+ M.util.js_pending('random6118d8133bb1d5'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random6118d8133bb1d5'); });
+})();
+//]]>
+</script>
+<!-- bye! -->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"06560f3a30","applicationID":"85424751","transactionName":"YFxbZkVQW0ZRARBaDlkWbEBeHkBGVRBLQw5bUFpLGUFdRQ==","queueTime":0,"applicationTime":102,"atts":"TBtMEA1KSBkSA0YJGkpE","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+</html>

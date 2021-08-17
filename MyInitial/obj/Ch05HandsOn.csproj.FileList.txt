@@ -1,0 +1,12 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Ch05HandsOn.Properties.Resources.resources
+obj\Debug\Ch05HandsOn.csproj.GenerateResource.Cache
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Ch04HandsOn.JuiceBarForm.resources
+obj\Release\Ch05HandsOn.Properties.Resources.resources
+obj\Release\Ch05HandsOn.csproj.GenerateResource.Cache
+bin\Debug\Ch05HandsOn.exe
+bin\Debug\Ch05HandsOn.pdb
+obj\Debug\Ch05HandsOn.exe
+obj\Debug\Ch05HandsOn.pdb
+obj\Debug\Ch05HandsOn.JuiceBarForm.resources

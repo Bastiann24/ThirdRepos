@@ -38,7 +38,11 @@
             this.radBox = new System.Windows.Forms.RadioButton();
             this.grpSection = new System.Windows.Forms.GroupBox();
             this.cmdCalculate = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.backstallRadio = new System.Windows.Forms.RadioButton();
+=======
+            this.childCheck = new System.Windows.Forms.CheckBox();
+>>>>>>> 6d776e9a88bec7406608a9e62eda0f4caf149092
             this.grpSection.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -150,6 +154,7 @@
             this.cmdCalculate.UseVisualStyleBackColor = true;
             this.cmdCalculate.Click += new System.EventHandler(this.cmdCalculate_Click);
             // 
+<<<<<<< HEAD
             // backstallRadio
             // 
             this.backstallRadio.AutoSize = true;
@@ -160,12 +165,25 @@
             this.backstallRadio.TabStop = true;
             this.backstallRadio.Text = "Back Stall\r\n";
             this.backstallRadio.UseVisualStyleBackColor = true;
+=======
+            // childCheck
+            // 
+            this.childCheck.AutoSize = true;
+            this.childCheck.Location = new System.Drawing.Point(247, 95);
+            this.childCheck.Name = "childCheck";
+            this.childCheck.Size = new System.Drawing.Size(49, 17);
+            this.childCheck.TabIndex = 11;
+            this.childCheck.Text = "Child";
+            this.childCheck.UseVisualStyleBackColor = true;
+            this.childCheck.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+>>>>>>> 6d776e9a88bec7406608a9e62eda0f4caf149092
             // 
             // TicketsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(608, 445);
+            this.Controls.Add(this.childCheck);
             this.Controls.Add(this.cmdCalculate);
             this.Controls.Add(this.grpSection);
             this.Controls.Add(this.chkDiscount);
@@ -195,7 +213,11 @@
         private System.Windows.Forms.RadioButton radBox;
         private System.Windows.Forms.GroupBox grpSection;
         private System.Windows.Forms.Button cmdCalculate;
+<<<<<<< HEAD
         private System.Windows.Forms.RadioButton backstallRadio;
+=======
+        private System.Windows.Forms.CheckBox childCheck;
+>>>>>>> 6d776e9a88bec7406608a9e62eda0f4caf149092
     }
 }
 

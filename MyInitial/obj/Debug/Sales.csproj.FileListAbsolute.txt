@@ -1,0 +1,12 @@
+C:\ThirdRepos\MyInitial\bin\Debug\MyNameSpace.exe.config
+C:\ThirdRepos\MyInitial\bin\Debug\MyNameSpace.exe
+C:\ThirdRepos\MyInitial\bin\Debug\MyNameSpace.pdb
+C:\ThirdRepos\MyInitial\obj\Debug\MyNameSpace.AboutBox1.resources
+C:\ThirdRepos\MyInitial\obj\Debug\MyNameSpace.JuiceBarForm.resources
+C:\ThirdRepos\MyInitial\obj\Debug\MyNameSpace.Properties.Resources.resources
+C:\ThirdRepos\MyInitial\obj\Debug\MyNameSpace.SummaryForm.resources
+C:\ThirdRepos\MyInitial\obj\Debug\Ticketing.TicketsForm.resources
+C:\ThirdRepos\MyInitial\obj\Debug\Sales.csproj.GenerateResource.cache
+C:\ThirdRepos\MyInitial\obj\Debug\Sales.csproj.CoreCompileInputs.cache
+C:\ThirdRepos\MyInitial\obj\Debug\MyNameSpace.exe
+C:\ThirdRepos\MyInitial\obj\Debug\MyNameSpace.pdb

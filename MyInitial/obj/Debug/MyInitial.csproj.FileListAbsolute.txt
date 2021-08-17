@@ -74,3 +74,15 @@ D:\MyTafe\2107_S2\5TSD\Resources\Session03\StudentFiles\MyInitial\obj\Debug\MyNa
 D:\MyTafe\2107_S2\5TSD\Resources\Session03\StudentFiles\MyInitial\obj\Debug\MyInitial.csproj.GenerateResource.Cache
 D:\MyTafe\2107_S2\5TSD\Resources\Session03\StudentFiles\MyInitial\obj\Debug\MyNameSpace.exe
 D:\MyTafe\2107_S2\5TSD\Resources\Session03\StudentFiles\MyInitial\obj\Debug\MyNameSpace.pdb
+C:\ThirdRepos\MyInitial\bin\Debug\MyNameSpace.exe.config
+C:\ThirdRepos\MyInitial\bin\Debug\MyNameSpace.exe
+C:\ThirdRepos\MyInitial\bin\Debug\MyNameSpace.pdb
+C:\ThirdRepos\MyInitial\obj\Debug\MyInitial.csprojAssemblyReference.cache
+C:\ThirdRepos\MyInitial\obj\Debug\MyNameSpace.AboutBox1.resources
+C:\ThirdRepos\MyInitial\obj\Debug\MyNameSpace.JuiceBarForm.resources
+C:\ThirdRepos\MyInitial\obj\Debug\MyNameSpace.Properties.Resources.resources
+C:\ThirdRepos\MyInitial\obj\Debug\MyNameSpace.SummaryForm.resources
+C:\ThirdRepos\MyInitial\obj\Debug\MyInitial.csproj.GenerateResource.cache
+C:\ThirdRepos\MyInitial\obj\Debug\MyInitial.csproj.CoreCompileInputs.cache
+C:\ThirdRepos\MyInitial\obj\Debug\MyNameSpace.exe
+C:\ThirdRepos\MyInitial\obj\Debug\MyNameSpace.pdb

@@ -50,7 +50,7 @@ namespace Ticketing
             lblAmount.Text = System.Convert.ToString(mTicketPrice.AmountDue);
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void backstallRadio_CheckedChanged(object sender, EventArgs e)
         {
 
         }

@@ -37,12 +37,8 @@
             this.radGeneral = new System.Windows.Forms.RadioButton();
             this.radBox = new System.Windows.Forms.RadioButton();
             this.grpSection = new System.Windows.Forms.GroupBox();
-            this.cmdCalculate = new System.Windows.Forms.Button();
-<<<<<<< HEAD
             this.backstallRadio = new System.Windows.Forms.RadioButton();
-=======
-            this.childCheck = new System.Windows.Forms.CheckBox();
->>>>>>> 6d776e9a88bec7406608a9e62eda0f4caf149092
+            this.cmdCalculate = new System.Windows.Forms.Button();
             this.grpSection.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -120,16 +116,6 @@
             this.radBox.TabIndex = 8;
             this.radBox.Text = "Box Seats";
             this.radBox.UseVisualStyleBackColor = true;
-            //
-            // radBack
-            //
-            this.backstallRadio.AutoSize = true;
-            this.backstallRadio.Location = new System.Drawing.Point(26, 63);
-            this.backstallRadio.Name = "radBox";
-            this.backstallRadio.Size = new System.Drawing.Size(73, 17);
-            this.backstallRadio.TabIndex = 8;
-            this.backstallRadio.Text = "Box Seats";
-            this.backstallRadio.UseVisualStyleBackColor = true;
             // 
             // grpSection
             // 
@@ -144,17 +130,6 @@
             this.grpSection.TabStop = false;
             this.grpSection.Text = "Section";
             // 
-            // cmdCalculate
-            // 
-            this.cmdCalculate.Location = new System.Drawing.Point(294, 268);
-            this.cmdCalculate.Name = "cmdCalculate";
-            this.cmdCalculate.Size = new System.Drawing.Size(108, 35);
-            this.cmdCalculate.TabIndex = 10;
-            this.cmdCalculate.Text = "Calculate";
-            this.cmdCalculate.UseVisualStyleBackColor = true;
-            this.cmdCalculate.Click += new System.EventHandler(this.cmdCalculate_Click);
-            // 
-<<<<<<< HEAD
             // backstallRadio
             // 
             this.backstallRadio.AutoSize = true;
@@ -165,25 +140,23 @@
             this.backstallRadio.TabStop = true;
             this.backstallRadio.Text = "Back Stall\r\n";
             this.backstallRadio.UseVisualStyleBackColor = true;
-=======
-            // childCheck
+            this.backstallRadio.CheckedChanged += new System.EventHandler(this.backstallRadio_CheckedChanged);
             // 
-            this.childCheck.AutoSize = true;
-            this.childCheck.Location = new System.Drawing.Point(247, 95);
-            this.childCheck.Name = "childCheck";
-            this.childCheck.Size = new System.Drawing.Size(49, 17);
-            this.childCheck.TabIndex = 11;
-            this.childCheck.Text = "Child";
-            this.childCheck.UseVisualStyleBackColor = true;
-            this.childCheck.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
->>>>>>> 6d776e9a88bec7406608a9e62eda0f4caf149092
+            // cmdCalculate
+            // 
+            this.cmdCalculate.Location = new System.Drawing.Point(294, 268);
+            this.cmdCalculate.Name = "cmdCalculate";
+            this.cmdCalculate.Size = new System.Drawing.Size(108, 35);
+            this.cmdCalculate.TabIndex = 10;
+            this.cmdCalculate.Text = "Calculate";
+            this.cmdCalculate.UseVisualStyleBackColor = true;
+            this.cmdCalculate.Click += new System.EventHandler(this.cmdCalculate_Click);
             // 
             // TicketsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(608, 445);
-            this.Controls.Add(this.childCheck);
             this.Controls.Add(this.cmdCalculate);
             this.Controls.Add(this.grpSection);
             this.Controls.Add(this.chkDiscount);
